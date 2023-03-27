@@ -54,7 +54,7 @@ function DisplayTransactions(props) {
   return (
     <div className='main'>
         <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-        <h3>Displaying Transactions for block: {parseInt(blocknumber, 16)}</h3>
+        <h3>Displaying Transactions for block: {parseInt(blocknumber, 16)} (Updates every 12 seconds)</h3>
         <div className='inMain'>
             <ol>
                 {transactions.current.map((item)=>(
